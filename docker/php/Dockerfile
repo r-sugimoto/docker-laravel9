@@ -14,7 +14,7 @@ vim \
 && docker-php-ext-install pdo_mysql bcmath
 
 # Node.jsをインストール
-RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt-get install -y nodejs
 
 WORKDIR /var/www/html
